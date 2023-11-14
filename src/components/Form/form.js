@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { View, Text, TextInput, TouchableOpacity } from "react-native";
-import ResultImc from "./ResultImc/resultimc";
+import ResultImc from "./ResultImc/resultImc";
 import styles from "./style";
 
 export default function Form(){
@@ -20,6 +20,7 @@ export default function Form(){
             imcCalculator()
             setHeight(null)
             setWeight(null)
+            if(setImc >18.5)
             setMessageImc("Seu IMC é igual: ")
             setTextButton("Calcular novamente")
             return
