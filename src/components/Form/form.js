@@ -29,7 +29,6 @@ export default function Form(){
             imcCalculator()
             setHeight(null)
             setWeight(null)
-            if(setImc >18.5)
             setMessageImc("Seu IMC é igual: ")
             setTextButton("Calcular novamente")
             setErrorMessage(null)
@@ -38,7 +37,7 @@ export default function Form(){
         verificationImc()
         setImc(null)
         setTextButton("Calcular")
-        setMessageImc("Preenchar o peso e a altura")
+        setMessageImc("Preencha o peso e a altura")
         
     }
 
