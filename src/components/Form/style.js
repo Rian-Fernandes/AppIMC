@@ -60,6 +60,13 @@ const styles = StyleSheet.create({
         fontWeight:"bold",
         marginLeft: 20,
         marginBottom:5,
+    },
+    
+    exibitionResultImc:{
+        width:"100%",
+        height:"50%",
+        justifyContent:"center",
+        alignItems: "center"
     }
 
 })
