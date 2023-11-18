@@ -75,13 +75,16 @@ const styles = StyleSheet.create({
 
     resultImcItem:{
         fontSize:28,
-        color:"red",
+        color:"#fff",
         height:50,
         width:"100%",
         paddingRight:20,   
     },
 
-    tex
+    textResultItemList:{
+        fontSize:14,
+        color: "#fff",
+    }
 
 })
 
